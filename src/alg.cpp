@@ -7,7 +7,7 @@ bool checkPrime(uint64_t value) {
 // вставьте код функции
     int count = 0;
     for (int i = 2; i < value; ++i) {
-        if (O == value % i) {
+        if (0 == value % i) {
             count += 1;
             return false;
         }
