@@ -20,7 +20,7 @@ uint64_t nPrime(uint64_t n) {
 // вставьте код функции
     int primec = 0;
     int count = 0;
-    for (uint64_t i = 2; i < 10000000; ++i) {
+    for (uint64_t i = 2; ; ++i) {
         if (Check(i))
             primec += 1;
         if (primec == n) {
@@ -32,7 +32,7 @@ uint64_t nPrime(uint64_t n) {
 
 uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
-    for (uint64_t i = value + 1; i < 10000000; ++i) {        
+    for (uint64_t i = value + 1; ; ++i) {        
         if (Check(i))
             return i;
     }
