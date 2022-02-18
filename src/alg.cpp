@@ -13,7 +13,7 @@ bool checkPrime(uint64_t value) {
             break;
         }
     }
-    return flag;   
+    return flag;
 }
 
 uint64_t nPrime(uint64_t n) {
